@@ -1,0 +1,853 @@
+body {
+    margin: 0;
+}
+@media only screen and (max-width: 767px) {
+    header {
+    min-height: 30rem;
+    height: auto;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+ 
+}
+header h3 {
+    margin-bottom: 3rem;    
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 0;
+}
+
+header a button {
+    color: #fff;
+    background-color: #1D809F;
+    border-color: #1D809F;
+    text-decoration: none;
+    padding: 1.25rem 2.5rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    border: 1px solid transparent;
+} 
+.About {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem; 
+}
+.About h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+.About p {
+    text-align: center;
+    margin-top: 0;
+    font-size: 1.25rem;
+    margin-bottom: 3rem;
+}
+.About a button {
+    color: #fff;
+    background-color: #212529;
+    border-color: #212529;
+    padding: 1.25rem 2.5rem;
+    font-size: 1rem;
+    text-decoration: none; 
+}
+.Services {
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(84, 145, 194);
+}
+.Services img {
+    width: 100px;
+    height: 100px;
+}
+.mobile {
+    text-align: center;
+    color: white;
+}
+.pencil {
+    text-align: center;
+    color:white;
+}
+.like {
+    text-align: center;
+    color: white;;
+}
+.mustache {
+    text-align: center;
+    color: white;
+}
+.Services h3 {
+    color: orange;
+    margin-bottom: 0;
+    font-size: 1rem;
+}
+.Services h2 {
+    margin-top: 0;
+    font-size: 3rem;
+    color: white;
+}
+.website {
+    background-image: url(/icons/b8e4870c0c275a40dc14bd5283112765.jpeg);
+    height: 30rem;
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.website h2 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    display: block;
+    text-align: center;
+}
+.website a button {
+    color: #fff;
+    background-color: #1D809F;
+    border-color: #1D809F;
+    text-decoration: none;
+    padding: 1.25rem 2.5rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    border: 1px solid transparent;
+}
+.portfolio {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+}
+.portfolio h3 {
+    font-size: 1rem;
+    color: orange;
+    margin-bottom: 0;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.portfolio h2 {
+    margin-top: 0; 
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.cards img {
+    max-width: 100%;
+    height: auto;
+}
+.caption h2 {
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.caption p {
+    font-weight: 300;
+    font-size: 1.2rem;
+    margin-top: 0;
+}
+.cards {
+    position: relative;
+}
+.caption {
+    position: absolute;
+    top: 100px;
+    width: 60%;
+    text-align: left;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+}
+.buttons {
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+    background-color: #1D809F;
+}
+.text-and-buttons {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    text-align: center;
+}
+.text-and-buttons h2 {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color: white;
+}
+.light {
+    padding: 1.25rem 2.5rem;
+    margin-right: 1.5rem;
+    color: #000;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+}
+.dark {
+    padding: 1.25rem 2.5rem;
+    color: #fff;
+    background-color: #212529;
+    border-color: #212529;
+}
+.btn {
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+footer {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+}
+.icons img {
+    width: 80px;
+    height: auto;
+}
+.icons a {
+    text-decoration: none; 
+    padding-left: 1rem; 
+    padding-right: 1rem;
+}
+footer p {
+    text-align: center;
+}
+.icons {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3rem;
+}
+}
+@media only screen and (min-width:768px) and (max-width:1280px) {
+    header {
+        min-height: 30rem;
+        height: auto;
+        background-image: url(/icons/pencilback.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover; 
+        background-position: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        vertical-align: middle;
+        justify-content: center;
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+        padding-right: 1.5rem;  
+        padding-left: 1.5rem;
+     
+    }
+    header h3 {
+        margin-bottom: 3rem;    
+        font-size: 3rem;
+        text-align: center;
+        margin-top: 0;
+    }
+    header a button {
+        color: #fff;
+        background-color: #1D809F;
+        border-color: #1D809F;
+        text-decoration: none;
+        padding: 1.25rem 2.5rem;
+        font-size: 1rem;
+        border-radius: 0.25rem;
+        border: 1px solid transparent;
+    }  
+    
+    .About {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 7.5rem;
+        padding-bottom: 7.5rem;
+        padding-right: 1.5rem;
+        padding-left: 1.5rem; 
+    }
+    .About h2 {
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 0;
+    }
+    .About p {
+        text-align: center;
+        margin-top: 0;
+        font-size: 1.25rem;
+        margin-bottom: 3rem;
+    }
+    .About a button {
+        color: #fff;
+        background-color: #212529;
+        border-color: #212529;
+        padding: 1.25rem 2.5rem;
+        font-size: 1rem;
+        text-decoration: none; 
+    }
+    .Services {
+        padding-top: 7.5rem;
+        padding-bottom: 7.5rem;
+        padding-right: 1.5rem;
+        padding-left: 1.5rem; 
+        text-align: center;
+        background-color: rgb(84, 145, 194);
+    }
+    .icon-box {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .Services img {
+        width: 150px;
+        height: 150px;
+    }
+    .mobile {   
+        text-align: center;
+        color: white;
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    .pencil {
+        text-align: center;
+        color:white;
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    .like {
+        text-align: center;
+        color: white;
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    .mustache {
+        text-align: center;
+        color: white;
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    .Services h3 {
+        color: orange;
+        margin-bottom: 0;
+        font-size: 1rem;
+    }
+    .Services h2 {
+        margin-top: 0;
+        font-size: 3rem;
+        color: white;
+    }
+    .website {
+    background-image: url(/icons/b8e4870c0c275a40dc14bd5283112765.jpeg);
+    height: 30rem;
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.website h2 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    display: block;
+    text-align: center;
+}
+.website a button {
+    color: #fff;
+    background-color: #1D809F;
+    border-color: #1D809F;
+    text-decoration: none;
+    padding: 1.25rem 2.5rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    border: 1px solid transparent;
+}
+.portfolio {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.portfolio h3 {
+    font-size: 1rem;
+    color: orange;
+    margin-bottom: 0;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.portfolio h2 {
+    margin-top: 0; 
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.cards img {
+    max-width: 100%;
+    height: auto;
+}
+.caption h2 {
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.caption p {
+    font-weight: 300;
+    font-size: 1.2rem;
+    margin-top: 0;
+}
+.cardcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column  ;
+}
+.cards {
+    position: relative;
+}
+.caption {
+    color: white;
+    position: absolute;
+    top: 350px;
+    width: 60%;
+    text-align: left;
+    left: 40%;
+    transform: translateX(-50%);
+}
+
+.buttons {
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+    background-color: #1D809F;
+}
+.text-and-buttons {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    text-align: center;
+}
+.text-and-buttons h2 {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color: white;
+}
+.light {
+    padding: 1.25rem 2.5rem;
+    margin-right: 1.5rem;
+    color: #000;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+}
+.dark {
+    padding: 1.25rem 2.5rem;
+    color: #fff;
+    background-color: #212529;
+    border-color: #212529;
+}
+.btn {
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+footer {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+}
+.icons img {
+    width: 80px;
+    height: auto;
+}
+.icons a {
+    text-decoration: none; 
+    padding-left: 1rem; 
+    padding-right: 1rem;
+}
+footer p {
+    text-align: center;
+}
+.icons {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3rem;
+}
+}
+@media only screen and (min-width:1281px) {
+    header {
+        min-height: 30rem;
+        height: auto;
+        background-image: url(/icons/pencilback.jpeg);
+        background-position: center;
+        background-size: cover; 
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        vertical-align: middle;
+        justify-content: center;
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+        padding-right: 1.5rem;  
+        padding-left: 1.5rem;
+     
+    }
+    header h3 {
+        margin-bottom: 3rem;    
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 0;
+    }
+    header a button {
+        color: #fff;
+        background-color: #1D809F;
+        border-color: #1D809F;
+        text-decoration: none;
+        padding: 1.25rem 2.5rem;
+        font-size: 1rem;
+        border-radius: 0.25rem;
+        border: 1px solid transparent;
+        
+      
+    } 
+    header a:hover {
+        transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+        cursor: pointer;
+    } 
+    
+    .About {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 7.5rem;
+        padding-bottom: 7.5rem;
+        padding-right: 1.5rem;
+        padding-left: 1.5rem; 
+    }
+    .About h2 {
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 0;
+    }
+    .About p {
+        text-align: center;
+        margin-top: 0;
+        font-size: 1.25rem;
+        margin-bottom: 3rem;
+    }
+    .About a button {
+        color: #fff;
+        background-color: #212529;
+        border-color: #212529;
+        padding: 1.25rem 2.5rem;
+        font-size: 1rem;
+        text-decoration: none; 
+    }
+    .Services {
+        padding-top: 7.5rem;
+        padding-bottom: 7.5rem;
+        padding-right: 1.5rem;
+        padding-left: 1.5rem; 
+        text-align: center;
+        background-color: rgb(84, 145, 194);
+    }
+    .icon-box {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .Services img {
+        width: 150px;
+        height: 150px;
+    }
+    .mobile {   
+        text-align: center;
+        color: white;
+        flex: 0 0 auto;
+        width: 25%; 
+    }
+    .pencil {
+        text-align: center;
+        color:white;
+        flex: 0 0 auto;
+        width: 25%; 
+    }
+    .like {
+        text-align: center;
+        color: white;
+        flex: 0 0 auto;
+        width: 25%;
+    }
+    .mustache {
+        text-align: center;
+        color: white;
+        flex: 0 0 auto;
+        width: 25%;
+    }
+    .Services h3 {
+        color: orange;
+        margin-bottom: 0;
+        font-size: 1rem;
+    }
+    .Services h2 {
+        margin-top: 0;
+        font-size: 3rem;
+        color: white;
+    }
+    .website {
+    background-image: url(/icons/b8e4870c0c275a40dc14bd5283112765.jpeg);
+    height: 30rem;
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.website h2 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    display: block;
+    text-align: center;
+}
+.website a button {
+    color: #fff;
+    background-color: #1D809F;
+    border-color: #1D809F;
+    text-decoration: none;
+    padding: 1.25rem 2.5rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    border: 1px solid transparent;
+}
+.portfolio {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+}
+.portfolio h3 {
+    font-size: 1rem;
+    color: orange;
+    margin-bottom: 0;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.portfolio h2 {
+    margin-top: 0; 
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.cards img {
+    max-width: 100%;
+    height: auto;
+}
+.caption h2 {
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.caption p {
+    font-weight: 300;
+    font-size: 1.2rem;
+    margin-top: 0;
+}
+.cardcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    clip-path: inset(0px);
+    transition: clip-path 0.25s ease-out, background-color 0.7s, -webkit-clip-path 0.25s ease-out;
+}
+.cards {
+    position: relative;
+    flex: 0 0 auto;
+    width: 50%;
+}
+.cards div {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+.caption {
+    color: white;
+    position: absolute;
+    top: 300px;
+    width: 60%;
+    text-align: left;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.buttons {
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+    background-color: #1D809F;
+}
+.text-and-buttons {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    text-align: center;
+}
+.text-and-buttons h2 {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color: white;
+}
+.light {
+    padding: 1.25rem 2.5rem;
+    margin-right: 1.5rem;
+    color: #000;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+}
+.dark {
+    padding: 1.25rem 2.5rem;
+    color: #fff;
+    background-color: #212529;
+    border-color: #212529;
+}
+.btn {
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+}
+footer {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+}
+.icons img {
+    width: 80px;
+    height: auto;
+}
+.icons a {
+    text-decoration: none; 
+    padding-left: 1rem; 
+    padding-right: 1rem;
+}
+footer p {
+    text-align: center;
+}
+.icons {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3rem;
+}
+a:any-link {
+    cursor: pointer;
+}
+
+}
+#btn {  
+    position: fixed;
+    bottom: 10px;
+    float: right;
+    right: 20.5%;
+    left: 84.25%;
+    max-width: 70px;
+    width: 100%;
+    font-size: 12px;
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(161, 162, 167);
+    padding: .5px;
+    border-radius: 4px;
+    text-decoration: none;
+    
+}
+span.credits {
+    background: url(/icons/2931161_arrow_top_up_direction_move_icon.svg) no-repeat top left;
+    background-size: contain;
+    cursor: pointer;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:blue;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
